@@ -110,3 +110,5 @@ git -C $project_dir commit -m "Mylib -> $project_name"
 
 git -C $project_dir config --unset user.email
 git -C $project_dir config --unset user.name
+
+git -C $project_dir clean -df
